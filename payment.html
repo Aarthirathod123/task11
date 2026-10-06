@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala 7 - Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <div class="check-left">
+            <p class="small">Checkout</p>
+            <h3>Contact Details</h3>
+            <label>Email ID</label>
+            <input type="email" placeholder="Enter email">
+            <h3>Payment</h3>
+            <div class="pay-options">
+                <div class="opt active">💳 Card</div><div class="opt">₿ Crypto</div><div class="opt">🏦 Bank</div>
+            </div>
+            <label>Card Number</label><input placeholder="1234 5678 9012 3456">
+            <div class="two-col"><div><label>Expiry</label><input placeholder="MM/YY"></div><div><label>CVC</label><input placeholder="123"></div></div>
+            <div class="two-col"><div><label>Country</label><select><option>India</option></select></div><div><label>ZIP</label><input placeholder="500001"></div></div>
+        </div>
+        <div class="check-right">
+            <h3>Order Summary</h3>
+            <div class="summary-box">
+                <div class="coupon"><input placeholder="Enter Coupon Code"><button>Apply Coupon</button></div>
+                <p>Sub Total <span>₹4,999</span></p>
+                <p>Taxes <span>₹0</span></p>
+                <p>Discount <span>₹0</span></p>
+                <h4>Total <span>₹4,999</span></h4>
+            </div>
+            <button class="pay-btn">Pay Now ₹4,999</button>
+            <p class="secure">Razorpay | GPay | PhonePe</p>
+            <a href="cart.html" class="continue">← Continue Shopping</a>
+        </div>
+    </div>
+</body>
+</html>
